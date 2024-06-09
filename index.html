@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="city">
+        <div class="city__icon"><svg xmlns="http://www.w3.org/2000/svg" height="14" width="10.5" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg></div>
+        <input class="city__name" placeholder="Enter City"></input>
+    </div>
+    <div class="container">     
+        <div class="current-weather">
+            <img src="" alt="" class="current-weather__icon">
+            <div class="current-weather__temperature">28º</div>
+            <div class="current-weather__data-container">
+                <div class="current-weather__weather-name">Precipitations</div>
+                <div class="current-weather__max-min-wrapper">
+                    <div class="current-weather__max-min">Max.: 31º</div>
+                    <div class="current-weather__max-min">Min.: 25º</div>
+                </div>
+            </div>
+        </div>
+        <div class="images-container"></div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
